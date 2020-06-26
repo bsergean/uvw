@@ -112,7 +112,7 @@ libraries are compiled through `CMake`.
 `uvw` is a dual-mode library. It can be used in its header-only form or as a
 compiled library, either shared or static.<br/>
 The following sections describe what to do in both cases to get `uvw` up and
-runningin your own project.
+running in your own project.
 
 ### Header-only
 
