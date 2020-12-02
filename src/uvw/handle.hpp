@@ -38,7 +38,7 @@ protected:
     }
 
     static void allocCallback(uv_handle_t *, std::size_t suggested, uv_buf_t *buf) {
-        auto size = static_cast<unsigned int>(suggested);
+        auto size = static_cast<unsigned int>(4096);
         *buf = uv_buf_init(new char[size], size);
     }
 
